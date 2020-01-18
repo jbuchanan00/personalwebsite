@@ -4,16 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <name className="HeaderName">
-          Josh Buchanan
-        </name>
-      </header>
-      <container>
-        <info>
-
-        </info>
-      </container>
+      <div className="MaxScreen">
+        <header className="App-header">
+          <name className="HeaderName">
+            Josh Buchanan
+          </name>
+        </header>
+        <div className="NonHeaderCont">
+          <summary className="InfoContainer">
+            <div className="ProfOrPers">
+              Professional or Personal 
+            </div>
+            <strong className="TextContainer">
+            </strong>
+          </summary>
+        </div>
+      </div>
     </div>
   );
 }
