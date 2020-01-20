@@ -19,6 +19,17 @@ function App() {
             </strong>
           </summary>
         </div>
+          <footer className="LinkContainer">
+            <a href="https://github.com/jbuchanan00">
+              GitHub
+            </a>
+            <a href="" download="Resume 12-5-2019.docx">
+              Resume 
+            </a>
+            <a href="">
+              LinkedIn
+            </a>
+          </footer>
       </div>
     </div>
   );
