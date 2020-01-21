@@ -1,34 +1,49 @@
 import React from 'react';
 import './App.css';
+import './Resume-12.5.19.pdf';
 
 function App() {
+
+function GithubLink(){
+  console.log("Github Link")
+  window.open("https://github.com/jbuchanan00")
+}
+function ResumeLink(){
+  console.log("Resume button")
+  window.open("./Resume 12-5-2019.docx")
+}
+function LinkedInLink(){
+  console.log("Linkedin Link")
+  window.open("https://linkedin.com/in/joshua-g-buchanan")
+}
+
   return (
     <div className="App">
       <div className="MaxScreen">
         <header className="App-header">
-          <name className="HeaderName">
+          <h1 className="HeaderName">
             Josh Buchanan
-          </name>
+          </h1>
         </header>
         <div className="NonHeaderCont">
           <summary className="InfoContainer">
             <div className="ProfOrPers">
               Professional or Personal 
             </div>
-            <strong className="TextContainer">
-            </strong>
+            <p className="TextContainer">
+            </p>
           </summary>
         </div>
           <footer className="LinkContainer">
-            <a href="https://github.com/jbuchanan00">
+            <button onClick = {e => GithubLink()}>
               GitHub
-            </a>
-            <a href="" download="Resume 12-5-2019.docx">
+            </button>
+            <button onClick = {e => ResumeLink()}>
               Resume 
-            </a>
-            <a href="">
+            </button>
+            <button onClick = {e => LinkedInLink()}>
               LinkedIn
-            </a>
+            </button>
           </footer>
       </div>
     </div>
