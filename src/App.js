@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Resume-12.5.19.pdf';
+import "./Components/ResumeViewer.js"
 
 function App() {
 
@@ -10,7 +11,6 @@ function GithubLink(){
 }
 function ResumeLink(){
   console.log("Resume button")
-  window.open("./Resume 12-5-2019.docx")
 }
 function LinkedInLink(){
   console.log("Linkedin Link")
