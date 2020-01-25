@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
 import './Resume-12.5.19.pdf';
+<<<<<<< HEAD
 import PDFView from './PDFView';
+=======
+import "./Components/ResumeViewer.js"
+>>>>>>> 142563c61e66ca283fd23132b368aa0e42dbc6f6
 
 function App() {
 
@@ -11,7 +15,10 @@ function GithubLink(){
 }
 function ResumeLink(){
   console.log("Resume button")
+<<<<<<< HEAD
   window.open(<PDFView />)
+=======
+>>>>>>> 142563c61e66ca283fd23132b368aa0e42dbc6f6
 }
 function LinkedInLink(){
   console.log("Linkedin Link")
