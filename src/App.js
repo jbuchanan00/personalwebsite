@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Resume-12.5.19.pdf';
+import PDFView from './PDFView';
 
 function App() {
 
@@ -10,7 +11,7 @@ function GithubLink(){
 }
 function ResumeLink(){
   console.log("Resume button")
-  window.open("./Resume 12-5-2019.docx")
+  window.open(<PDFView />)
 }
 function LinkedInLink(){
   console.log("Linkedin Link")
